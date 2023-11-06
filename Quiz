@@ -1,0 +1,63 @@
+Gryffindor = 0
+Ravenclaw = 0
+Hufflepuf = 0
+Slytherin = 0
+print("¿Que prefieres, el amanecer o el anochecer?:")
+print(" 1: El amanecer")
+print(" 2: El anochecer")
+Repuesta = int(input("ELige entre el 1 o el 2:"))
+if Repuesta == 1:
+    Gryffindor += 1
+    Ravenclaw += 1
+elif Repuesta == 2:
+    Hufflepuf += 1
+    Slytherin += 1
+elif Repuesta >= 3:
+    print("Repuesta no valida")
+
+print("¿Cuando esté muerto, quiero que la gente me recuerde como?")
+print(" 1: El Bien")
+print(" 2: El Grande")
+print(" 3: Los sabios")
+print(" 4: El Audaz")
+Repuesta =int(input("Elige entre el 1,2,3 o 4:"))
+if Repuesta == 1:
+    Hufflepuf += 2
+elif Repuesta == 2:
+    Slytherin += 2
+elif Repuesta == 3:
+    Ravenclaw += 2
+elif Repuesta == 4:
+    Gryffindor += 2
+elif Repuesta >= 5:
+    print("Repuesta no valida")
+
+print("¿Que instrumento te da mas placer auditivo?")
+print(" 1: El Violin")
+print(" 2: La Trompeta")
+print(" 3: El Piano")
+print(" 4: El Tambor")
+Repuesta =int(input("Elige entre el 1,2,3 o 4:"))
+if Repuesta == 1:
+    Slytherin += 4
+elif Repuesta == 2:
+    Hufflepuf += 4
+elif Repuesta == 3:
+    Ravenclaw += 4
+elif Repuesta == 4:
+    Gryffindor += 4
+elif Repuesta >= 5:
+    print("Repuesta no valida")
+
+most_points = max (Gryffindor, Ravenclaw, Hufflepuf, Slytherin)
+if Gryffindor == most_points:
+    print("Bienvenido a Gryffindor")
+elif Ravenclaw == most_points:
+    print("Bienvenido a Ravenclaw")
+elif Hufflepuf == most_points:
+    print("Bienvenido a Hufflepuf")
+elif Slytherin == most_points: 
+    print ('Bienvenido a Slytherin')
+
+
+    
