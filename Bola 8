@@ -1,0 +1,22 @@
+Pregunta = input ("Haz tu pregunta:")
+import random
+num = random.randint(1, 9)
+print (num)
+if num == 1:
+    print ("Sí definitivamente.")
+elif num == 2:
+    print ("Es decididamente así.")
+elif num == 3:
+    print ("Sin duda.")
+elif num == 4:
+    print ("Respuesta confusa, intenta otra vez.")
+elif num == 5:
+    print ("Pregunta de nuevo más tarde.")
+elif num == 6:
+    print ("Mejor no decirte ahora.")
+elif num == 7:
+    print ("Mis fuentes dicen que no.")
+elif num == 8:
+    print ("Las perspectivas no son tan buenas.")
+elif num == 9:
+    print ("Muy dudoso.")
